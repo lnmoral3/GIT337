@@ -1,0 +1,19 @@
+:root {
+    --pink: #fe019a;
+    --h1-font: 'Playwrite HU', cursive; 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: var(--h1-font);
+    color: var(--pink);
+}
